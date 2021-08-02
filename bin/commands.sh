@@ -28,7 +28,7 @@ if [ "$1" = "ghactionsbootstrap" ]; then
   mkdir .docs
 
   echo "Moving cloudflare-docs-engine files into .docs"
-  cp -r node_modules/cloudflare-docs-engine/* .docs
+  cp -r node_modules/badguy-docs-engine/* .docs
 
   echo "Entering .docs"
   cd .docs
@@ -45,7 +45,7 @@ if [ "$1" = "bootstrap" ]; then
   rm -rf .docs
 
   echo "Moving cloudflare-docs-engine files into .docs"
-  cp -r node_modules/cloudflare-docs-engine/ .docs
+  cp -r node_modules/badguy-docs-engine/ .docs
 
   echo "Entering .docs"
   cd .docs

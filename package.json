@@ -1,9 +1,9 @@
 {
-  "name": "cloudflare-docs-engine",
+  "name": "badguy-docs-engine",
   "private": true,
-  "description": "Cloudflare Workers documentation engine",
+  "description": "Bad Guy documentation engine based cloudflare-docs-engine",
   "version": "0.1.0",
-  "author": "Cloudflare <github@cloudflare.com>",
+  "author": "Bad Guy Express",
   "dependencies": {
     "@adaptivelink/pops": "0.2.10",
     "@cloudflare/cloudflare-brand-assets": "^4.7.7",
