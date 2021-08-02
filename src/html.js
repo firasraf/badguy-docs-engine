@@ -23,6 +23,8 @@ export default function HTML(props) {
         <div key={`body`} id="___gatsby" dangerouslySetInnerHTML={{ __html: props.body }}/>
 
         { props.postBodyComponents }
+
+        <script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="7146"></script>
       </body>
     </html>
   )

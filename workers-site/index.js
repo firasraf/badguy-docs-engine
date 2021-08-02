@@ -45,11 +45,6 @@ async function handleEvent(event) {
     })
     if (response) return response
 
-    const analyticsResp = await analytics(event, {
-      allowList: ['developers.cloudflare.com'],
-    })
-    if (analyticsResp) return analyticsResp
-
     if (DEBUG) {
       // customize caching
       options.cacheControl = {
