@@ -9,53 +9,10 @@ const getProduct = (name) => {
 }
 
 const products = [
-  "1.1.1.1",
-  "access",
-  "analytics",
-  "api",
-  "automatic-platform-optimization",
-  "argo-tunnel",
-  "bots",
-  "byoip",
-  "cache",
-  "client-ip-geolocation",
-  "cloudflare-for-teams",
-  "cloudflare-one",
-  "distributed-web",
-  "docs-engine",
-  "events",
-  "firewall",
-  "fundamentals",
-  "gateway",
-  "http3",
-  "images",
-  "load-balancing",
-  "logs",
-  "magic-transit",
-  "magic-wan",
-  "mobile-sdk",
-  "network-interconnect",
-  "page-shield",
-  "railgun",
-  "randomness-beacon",
-  "registrar",
-  "rules",
-  "spectrum",
-  "ssl",
-  "stream",
-  "tenant",
-  "terraform",
-  "time-services",
-  "waf",
-  "waiting-room",
-  "warp-client",
-  "workers",
+  "inflight-menu",
 ]
 
 const productIcons = {}
-products.forEach(name => {
-  productIcons[name] = require(getProduct(name)).pathD
-})
 
 if (docsConfig.productLogoPathD && docsConfig.productIconKey) {
   return Error("Set either `productLogoPathD` or `productIconKey` in docs-config.js, not both")
@@ -72,7 +29,7 @@ Object.keys(docsConfig).forEach(prop => {
   siteMetadata.cloudflareDocs[prop] = docsConfig[prop]
 })
 
-siteMetadata.cloudflareDocs.productIcons = productIcons
+// siteMetadata.cloudflareDocs.productIcons = productIcons
 
 // We exposed friendlier siteMetadata.url to Docs consumers but
 // gatsby-plugin-sitemap requires `siteUrl` https://git.io/JUUxW
@@ -153,7 +110,7 @@ module.exports = {
         background_color: "#f38020",
         theme_color: "#f38020",
         display: "minimal-ui",
-        icon: "src/images/cloudflare-icon.png"
+        icon: "src/images/icon.png"
       }
     },
     // Consider enabling for PWA + offline functionality
