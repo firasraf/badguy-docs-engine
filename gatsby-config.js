@@ -104,7 +104,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Cloudflare docs",
+        name: "Bad guy express",
         short_name: "Docs",
         start_url: "/",
         background_color: "#f38020",

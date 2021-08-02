@@ -389,7 +389,7 @@ https://bugs.chromium.org/p/chromium/issues/detail?id=997607
 
 [theme="dark"] .DocsSidebar--nav-item[is-active] > .DocsSidebar--nav-expand-collapse-button > .DocsSidebar--nav-expand-collapse-button-content,
 .DocsSidebar--nav-item[is-active-root]:not([is-expanded]) > .DocsSidebar--nav-expand-collapse-button > .DocsSidebar--nav-expand-collapse-button-content {
-  color: var(--orange);
+  color: var(--blue-2-rgb);
 }
 
 @media (hover: hover) {
@@ -548,7 +548,7 @@ https://bugs.chromium.org/p/chromium/issues/detail?id=997607
 
 @media (hover: hover) {
   [theme="dark"] .DocsSidebar--nav-link:hover .DocsSidebar--nav-link-text {
-    color: var(--code-orange);
+    color: var(--blue-2-rgb);
   }
 
   [theme="dark"] .DocsSidebar--nav-link:hover .DocsSidebar--nav-link-text::before {
@@ -557,7 +557,7 @@ https://bugs.chromium.org/p/chromium/issues/detail?id=997607
 }
 
 [theme="dark"] .DocsSidebar--nav-link[is-active] .DocsSidebar--nav-link-text {
-  color: var(--code-orange);
+  color: var(--blue-2-rgb);
 }
 
 [theme="dark"] .DocsSidebar--nav-link[is-active] .DocsSidebar--nav-link-text::before {

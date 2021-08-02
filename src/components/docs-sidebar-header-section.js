@@ -7,12 +7,11 @@ const DocsSidebarHeaderSection = () => (
   <div className="DocsSidebar--section DocsSidebar--header-section">
     <a className="DocsSidebar--cloudflare-logo-link DocsSidebar--link" href="https://developers.cloudflare.com/">
       <DocsNavLogoLockup
-        logo={<CloudflareLogo/>}
         text={(
           <>
-            <span data-text="Cloudflare">Cloudflare</span>
+            <span data-text="Cloudflare">Bad Guy</span>
             <span>&nbsp;</span>
-            <span data-text="Docs">Docs</span>
+            <span data-text="Docs">Express</span>
           </>
         )}
       />
