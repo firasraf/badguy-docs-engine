@@ -13,7 +13,6 @@ const DocsMobileTitleHeader = () => (
     <Link className="DocsMobileTitleHeader--logo-link Link Link-without-underline" to="/">
       <DocsNavLogoLockup
         small={true}
-        logo={<DocsProductLogo/>}
         scaleTextClassName="DocsMobileTitleHeader--text-scaler"
         textLength={DocsTitle().length}
         text={<DocsTitle/>}

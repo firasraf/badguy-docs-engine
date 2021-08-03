@@ -1,6 +1,5 @@
 import React from "react"
 
-import CloudflareLogo from "./cloudflare-logo"
 import DocsNavLogoLockup from "./docs-nav-logo-lockup"
 
 const DocsSidebarHeaderSection = () => (

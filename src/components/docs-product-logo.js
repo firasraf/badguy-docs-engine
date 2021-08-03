@@ -6,7 +6,7 @@ export default () => {
   const { product, productLogoPathD }  = getCloudflareDocsConfig()
 
   return (
-    <AccessibleSVG title={`Cloudflare ${product} logo`} viewBox="0 0 48 48">
+    <AccessibleSVG title={`Bad Guy Express`} viewBox="0 0 48 48">
       <path d={productLogoPathD}/>
     </AccessibleSVG>
   )

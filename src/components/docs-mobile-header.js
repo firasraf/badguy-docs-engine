@@ -1,6 +1,5 @@
 import React from "react"
 
-import CloudflareLogo from "./cloudflare-logo"
 import DocsNavLogoLockup from "./docs-nav-logo-lockup"
 
 const DocsMobileHeader = () => (
@@ -8,12 +7,11 @@ const DocsMobileHeader = () => (
     <a className="DocsMobileHeader--cloudflare-logo-link Link Link-without-underline" href="https://literasi.blog/">
       <DocsNavLogoLockup
         small={true}
-        logo={<CloudflareLogo/>}
         text={(
           <>
-            <span data-text="Cloudflare">Cloudflare</span>
+            <span data-text="Cloudflare">Bad Guy</span>
             <span>&nbsp;</span>
-            <span data-text="Docs">Docs</span>
+            <span data-text="Docs">Express</span>
           </>
         )}
       />
