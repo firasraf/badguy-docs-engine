@@ -4,7 +4,7 @@ import DocsNavLogoLockup from "./docs-nav-logo-lockup"
 
 const DocsSidebarHeaderSection = () => (
   <div className="DocsSidebar--section DocsSidebar--header-section">
-    <a className="DocsSidebar--cloudflare-logo-link DocsSidebar--link" href="https://literasi.blog/">
+    <a className="DocsSidebar--cloudflare-logo-link DocsSidebar--link" href="https://duckduckgo.com">
       <DocsNavLogoLockup
         text={(
           <>
