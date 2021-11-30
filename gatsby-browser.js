@@ -9,7 +9,7 @@ import "@cloudflare/cloudflare-brand-assets/css/global/element-normalization.css
 import "@cloudflare/cloudflare-brand-assets/css/global/sizes-variables.css"
 import "@cloudflare/cloudflare-brand-assets/css/global/font-variables.css"
 import "@cloudflare/cloudflare-brand-assets/css/global/brand-color-variables.css"
-import "@cloudflare/cloudflare-brand-assets/css/global/theme-color-variables.css"
+import "./src/css/global/theme-color-variables.css"
 import "@cloudflare/cloudflare-brand-assets/css/global/theme-helpers.css"
 import "@cloudflare/cloudflare-brand-assets/css/global/selection-color.css"
 import "@cloudflare/cloudflare-brand-assets/css/global/html.css"

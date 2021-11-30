@@ -3,7 +3,6 @@ html[is-docs-page] body {
   scroll-behavior: smooth;
   height: 100%;
   overscroll-behavior-y: none;
-  font-family: monospace;
 }
 
 .DocsPage {
