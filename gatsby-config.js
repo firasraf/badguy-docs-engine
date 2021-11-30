@@ -93,7 +93,14 @@ module.exports = {
         remarkPlugins: [require("remark-slug")]
       }
     },
-    "gatsby-plugin-material-ui",{
+    {
+      resolve: "gatsby-plugin-material-ui",
+      options: {
+        stylesProvider: {
+          disableGeneration: true
+        },
+      },
+    },{
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "Bad guy express",
