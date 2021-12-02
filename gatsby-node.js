@@ -1,20 +1,17 @@
 // See: https://www.gatsbyjs.org/docs/node-apis/
 
 // https://www.gatsbyjs.org/docs/add-custom-webpack-config/
-exports.onCreateWebpackConfig = ({
-  getConfig,
-  actions,
-  plugins,
-}) => {
+exports.onCreateWebpackConfig = ({ getConfig, actions, plugins }) => {
   const config = getConfig()
 
   // Hides "[HMR] ..." logs in devtools
   if (config.entry.commons) {
-    config.entry.commons = config.entry.commons.map(path => (
+    config.entry.commons = config.entry.commons.map(path =>
       // Add query param to entry added by Gatsby CLI https://git.io/JvAC5
       path.indexOf('/webpack-hot-middleware/client.js?') > -1 ?
-        path + '&quiet=true' : path
-    ))
+        path + "&quiet=true"
+        : path
+    )
   }
 
   actions.replaceWebpackConfig(config)
@@ -24,12 +21,11 @@ exports.onCreateWebpackConfig = ({
       // Hides React Devtools advertisement in devtools
       // https://tinyurl.com/hide-react-devtools-advert
       plugins.define({
-        __REACT_DEVTOOLS_GLOBAL_HOOK__: "({ isDisabled: true })"
-      })
-    ]
+        __REACT_DEVTOOLS_GLOBAL_HOOK__: "({ isDisabled: true })",
+      }),
+    ],
   })
 }
-
 
 const { createFilePath } = require("gatsby-source-filesystem")
 
@@ -42,11 +38,10 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: "slug",
       node,
-      value
+      value,
     })
   }
 }
-
 
 const path = require("path")
 
@@ -97,7 +92,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     createPage({
       path: node.fields.slug,
       component: path.resolve("./src/components/mdx-custom-renderer.js"),
-      context: node
+      context: node,
     })
   })
 }
