@@ -2,7 +2,7 @@
   "name": "badguy-docs-engine",
   "private": true,
   "description": "Bad Guy documentation engine based cloudflare-docs-engine",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "author": "Bad Guy Express",
   "dependencies": {
     "@adaptivelink/pops": "0.2.10",
