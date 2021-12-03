@@ -23,7 +23,7 @@ https://bugs.chromium.org/p/chromium/issues/detail?id=997607
 }
 
 [theme="dark"] .DocsSidebar {
-  --sidebar-background-color: var(--gray-0F);
+  --sidebar-background-color: rgb(0, 0, 0);
 }
 
 [theme="dark"] .DocsSidebar::before {

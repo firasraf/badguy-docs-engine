@@ -33,5 +33,6 @@ html[theme="light"] {
     --shadow-color-rgb: 0, 0, 0;
     --section-tiger-stripe-background-color: var(--gray-05);
     --deemphasized-color: var(--gray-7);
+    background-color: rgb(0, 0, 0);
   }
   
