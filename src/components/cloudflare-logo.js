@@ -3,7 +3,7 @@ import AccessibleSVG from "./accessible-svg"
 
 const CloudflareLogo = () => (
   <h1>
-    Bad Guy Express
+    Literasi Blog
   </h1>
 )
 
